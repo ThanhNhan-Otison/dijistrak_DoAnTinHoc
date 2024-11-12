@@ -1,0 +1,20 @@
+﻿  Source.cpp
+C:\Document\c++\DoAnTinHoc\DoAnTinHoc\DoAnTinHoc\Source.cpp(9,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\utility(242,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty=ll
+          ]
+          and
+          [
+              _Ty1=int
+          ]
+C:\Document\c++\DoAnTinHoc\DoAnTinHoc\DoAnTinHoc\Source.cpp(58,12): message : see reference to function template instantiation 'std::pair<int,int>::pair<_Ty&,int&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Ty=ll,
+              _Other1=ll &,
+              _Other2=int &
+          ]
+C:\Document\c++\DoAnTinHoc\DoAnTinHoc\DoAnTinHoc\Source.cpp(58,11): message : see the first reference to 'std::pair<int,int>::pair' in 'djk'
+  DoAnTinHoc.vcxproj -> C:\Document\c++\DoAnTinHoc\DoAnTinHoc\x64\Debug\DoAnTinHoc.exe
